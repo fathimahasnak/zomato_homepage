@@ -1,0 +1,311 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="first.css" rel="stylesheet"/>
+        <link rel="stylesheet" href="home.css"/>
+    </head>
+
+    <body style="background-color: rgb(245, 217, 205);">
+        <!--navbar section-->
+        <div id="header">
+        <nav class="navbar navbar-light">
+            <div class="navbar-fluid">
+                <div class="navbar-header navbar-light">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#edunav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                <a class="navbar-brand" href="#">
+                    Xomato
+                </a>
+                </div>
+                <div class="navbar-collapse collapse" id="edunav">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">About</a>
+                        </li>
+                        <li>
+                            <a href="">Contact Us</a>
+                        </li>
+                    </ul>
+                
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="https://www.facebook.com/" target="_blank">
+                            <img src="image/facebook.png" alt="fb" class="slogo"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" target="_blank">
+                            <img src="image/insta.png" alt="fb" class="slogo"/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/" target="_blank">
+                            <img src="image/youtube1.png" alt="fb" class="slogo"/>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>    
+        </nav>
+        </div>
+
+        <!--search section-->
+        <div id="search">
+            <div id="logo">
+                <span>E!</span>
+            </div>
+            <div id="heading">
+                Find The Best Restaurants Near You
+            </div>
+            <div class="dropdown">
+                <select>
+                    <option>----Select your City----</option>
+                    <option>Delhi</option>
+                    <option>Pune</option>
+                    <option>Amritsar</option>
+                    <option>Mumbai</option>
+                </select>
+                <select class="restSelect">
+                    <option>----Select a Restaurant----</option>
+                    <option>Ama Cafe</option>
+                    <option>Mc Donald's</option>
+                    <option>Hotel Arya Bhavan</option>
+                    <option>Dunkin' Donuts</option>
+                    <option>Tun-Tun Dhaba</option>
+                    <option>Hotel Taj</option>
+                </select>
+            </div>
+        </div>
+
+        <!--panel-->
+        <div class="panel-group">
+            <div class="panel panel-success">
+              <div class="panel-heading">
+                <h4 class="panel-title" style="text-align:center;">
+                  <a data-toggle="collapse" href="#collapse2" >Filter by Cuisines</a>
+                </h4>
+              </div>
+              <div id="collapse2" class="panel-collapse collapse" style="text-align:center;">
+                <div class="panel-body">Arabian</div>
+                <div class="panel-body">Chinese</div>
+                <div class="panel-body">Italian</div>
+                <div class="panel-body">Mexican</div>
+              </div>
+            </div>
+        </div>
+
+        <h2 style="text-align:center; font-family: Okra,Helvetica,sans-serif; color:#e67643; font-weight:bold; font: size 70px;">Exciting Offers Awaits You!</h2>
+        <p style="text-align:center; font-family: Okra,Helvetica,sans-serif; color:#5b7240;font: size 30px;"> Flat 50% off on your first delivery!</p>
+        
+        <!--carousel-->
+        <div id="eduSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#eduSlider" data-slide-to="0" class="active"></li>
+                <li data-target="#eduSlider" data-slide-to="1"></li>
+                <li data-target="#eduSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item slideImg active">
+                    <img src="image/banner10.jpg" alt="imgslider" class="slideImgContent" />    
+                </div>
+                <div class="item slideImg">
+                    <img src="image/banner9.jpg" alt="imgslider" class="slideImgContent" />
+                </div>
+                <div class="item slideImg">
+                    <img src="image/banner8.jpg" alt="imgslider" class="slideImgContent" />
+                </div>
+            </div>
+            <a class="left carousel-control" href="#eduSlider" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+            <a class="right carousel-control" href="#eduSlider" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+        </div>
+
+        <!--quich search-->    
+        <div id="quickSearch">
+            <span id="quickHeading">Quick Search</span>
+            <span id="quickSubHeading">Discover Restaurants By Meal</span>
+            <div id="main">
+
+                <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="image/lunch.png" alt=""/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="../listing/listing.html">BreakFast</a>
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Place For BreakFast
+                        </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="image/nightlife.png" alt=""/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="../listing/listing.html">NightLife</a>
+                            
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Place For NightLife
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="image/sacks.png" alt=""/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="../listing/listing.html">Lunch</a>
+                            
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Place For NightLife
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="image/dinner.png" alt=""/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="../listing/listing.html">Dinner</a>
+                            
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Place For Dinner
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="image/drinks.png" alt=""/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="../listing/listing.html">Drinks</a>
+                            
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Place For Drinks
+                        </div>
+                    </div>
+                </div>   
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <div class="tileContainer">
+                    <div class="tileComponent1">
+                        <img src="image/nightlife.png" alt=""/>
+                    </div>
+                    <div class="tileComponent2">
+                        <div class="componentHeading">
+                            <a href="../listing/listing.html">NightLife</a>
+                            
+                        </div>
+                        <div class="componentSubHeading">
+                            Best Place For NightLife
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr><hr>
+        <br>
+
+        <!--media left option-->
+        <div class="container"  id="cont">
+            <br>
+            <div class="media">
+                <div class="media-left">
+                    <img src="image/setup.png" class="media-object" style="width:200px" />
+                </div>
+                <div class="media-body">
+                    <h2 class="media-heading">Partner with us and Set Up Your Business Owner Account</h2>
+                    <br>
+                    <p>
+                        Developing your Zomato business account and profile is a great way to boost your restaurant's online reputation. It is built to help restaurants thrive in the online marketspace.<br>
+                        Connecting customers to restaurants is Xomato's main goal. They work to ensure customers have the best experience at any restaurant found on their platform.<br><br>
+                    </p>
+                    <button class="btn btn-success" data-toggle="modal" 
+                    data-target="#eduModal">Details</button>
+                </div>
+            </div>
+
+            <div id="eduModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">ALERT!</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                By proceeding, you accept all the terms and conditions associated in business with us. This process is exclusively for Business ties only. Please make sure you are one of them.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-danger"
+                            data-dismiss="modal">
+                                Proceed
+                            </button>
+                        </div>
+                    </div>
+    
+                </div>
+            </div>
+        <br><br>
+        </div>
+        
+        <!--footer-->
+         <div id="footer">
+            <p id="footText">&copy; Xomato</p>
+            <hr/>
+            <div class="footDiv">
+                <p>Contact Us: +91 9272553897</p>
+                <p>Pune, Mumbai</p>
+            </div>
+            <div class="footDiv">
+                <p>E-mail: xomato@xom.co.in</p>
+                <p>Xomato pvt ltd.</p>
+            </div>
+            <div class="footDiv noBorder">
+                <p>Contact Us: +1 777-927-629</p>
+                <p>Seattle, Washington</p>
+            </div>
+        </div>
+    </body>
+</html>
